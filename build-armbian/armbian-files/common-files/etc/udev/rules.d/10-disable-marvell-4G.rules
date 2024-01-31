@@ -1,0 +1,1 @@
+ACTION=="add", ATTR{idVendor}=="1286", ATTR{idProduct}=="4e3c", RUN="/bin/sh -c 'echo 0 >/sys/$devpath/authorized'"
